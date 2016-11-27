@@ -42,5 +42,5 @@ module.exports = function (args, callback) {
 	// TODO: fix for cygwin
 	fs.chmodSync(localFile, '644');
 
-	callback(null, 'Successfully pushed ssh-config.');
+	callback(null, 'Successfully pulled ssh-config.');
 };

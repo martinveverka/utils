@@ -34,5 +34,5 @@ module.exports = function (args, callback) {
 	// writes to remote file
 	fs.writeFileSync(remoteFile, content);
 
-	callback(null, 'Successfully pulled ssh-config.');
+	callback(null, 'Successfully pushed ssh-config.');
 };
