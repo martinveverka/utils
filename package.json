@@ -1,0 +1,21 @@
+{
+  "name": "mv-utils",
+  "version": "1.0.0",
+  "description": "Some useful utils for everyday tasks.",
+  "author": "Martin Veverka <martin@veverka.eu>",
+  "bin": {
+    "mv-utils": "./cli.js"
+  },
+  "main": "cli.js",
+  "repository": "martinveverka/utils",
+  "dependencies": {
+    "expand-tilde": "^2.0.1",
+    "ini": "^1.3.4",
+    "minimist": "^1.2.0",
+    "rc": "^1.1.6",
+    "tildify": "^1.2.0",
+    "yargs": "^6.4.0"
+  },
+  "preferGlobal": true,
+  "license": "MIT"
+}
