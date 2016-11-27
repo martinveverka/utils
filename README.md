@@ -38,5 +38,5 @@ ssh-config-remote = ~/Dropbox/ssh-config
 ssh-config-local = ~/.ssh/config
 
 ; identity file to be included in ssh config, empty to skip
-ssh-identity-file = ~/.ssh/id_rsa
+ssh-config-identity-file = ~/.ssh/id_rsa
 ```
