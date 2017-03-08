@@ -34,6 +34,7 @@ var config = require('rc')(
 //var argv = require('minimist')(process.argv.slice(2));
 var argv = require('yargs')
 	.usage('mv-utils <method> [args]')
+	.command('diff-ssh-config')
 	.command('pull-ssh-config')
 	.command('push-ssh-config')
 	.demand(1)
